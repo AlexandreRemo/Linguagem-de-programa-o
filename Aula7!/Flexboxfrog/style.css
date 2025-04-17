@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid;
+}
+
+.cat{
+    border-color: blue;
+}
+
+.horse{
+    border-color: green;
+}
+
+.camel{
+    border-color: red;
+}
+.ex1{
+    display: flex;
+    justify-content:end;
+}
+
+.ex2{
+    display:flex;
+    justify-content: center ;
+    
+
+}
+
+.ex3{
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+.ex4{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.ex5{
+    display:flex;
+    align-items: flex-end;
+    
+}
+.ex6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ex7{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.ex8{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.ex9{
+    display: flex;
+    flex-direction: column;
+}
+.ex10{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.ex11{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.ex12{
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.ex13{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+.ex14{
+    display: flex;
+    horse{
+        order: 2;
+    
+    }
+}
+
+.ex15{
+    horse{
+        order: -3;
+    }
+
+}
+.ex16{
+    display: flex;
+  align-items: flex-start;
+    horse{
+        align-self: flex-end;
+        align-items: stretch;
+    }
+}
+
+
+
