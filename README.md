@@ -1,1 +1,0 @@
-# Linguagem-de-programa-o
